@@ -1,0 +1,141 @@
+html {
+    background: #111111;
+    font-family: "Ubuntu", serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.design {
+    background:#7886C7;
+    filter: blur(2px);
+    padding: 12px;
+    border-radius: 16px;
+    width: 5em;
+top:-40px;
+    transform: rotate(-20deg);
+    left:-10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    position: absolute;
+
+  
+}
+
+.design1 {
+    background: linear-gradient(135deg, #F7CFD8, #EAB6BF);
+    filter: blur(2px);
+    padding: 12px;
+    border-radius: 16px;
+    width: 5em;
+    margin-top: -40px;
+    transform: rotate(20deg);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.design3{
+    background: #CCDF92;
+    filter: blur(2px);
+    padding: 12px;
+    border-radius: 16px;
+    width: 5em;
+ 
+    margin-left: 320px;
+    margin-top: 26em;
+    transform: rotate(-20deg);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    
+}
+.design4{
+    background: #9F8383;
+    filter: blur(2px);
+    padding: 12px;
+    border-radius: 16px;
+    width: 5em;
+ 
+    margin-left: -268px;
+    margin-top: 27em;
+    transform: rotate(20deg);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    position: absolute;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    padding-left: 14px;
+    padding-right: 14px;
+    width: 22em;
+    height: 24em;
+
+background: rgba(226, 224, 224, 0.952);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(10.4px);
+-webkit-backdrop-filter: blur(10.4px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+    flex-direction: column;
+    color: #000;
+    border-radius: 4em;
+}
+
+h1 {
+    font-size: 1.6em;
+    font-weight: 500;
+}
+
+.price-box {
+    background: #E8E7EC;
+    padding: 3px;
+    border-radius: 1.4rem;
+    width: 18em;
+    display: flex;
+    align-items: center;
+    height: 6em;
+}
+
+.minus,
+.plus {
+    border: 0;
+    outline: 0;
+    background: transparent;
+    font-size: 3em;
+    color: #B5B5B5;
+    cursor: pointer;
+}
+.bx.bxs-balloon{
+   color: #A94A4A;
+   font-size: 2.3em;
+}
+.box1 {
+    background: #FFFFFF;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 6em;
+    border-radius: 1.4rem;
+    padding: 0 1em;
+}
+
+.value {
+    font-size: 1.6em;
+}
+.section{
+    display:flex;
+    justify-content: space-between;
+    opacity: 0.6;
+}
+.zero{
+    transform: translateX(-110px);
+}
+.hundred{
+transform: translateX(110px);
+}
+
